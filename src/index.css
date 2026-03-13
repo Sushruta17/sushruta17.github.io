@@ -140,6 +140,19 @@
     -webkit-backdrop-filter: blur(16px);
   }
 
+  /* Dark mode: mobile nav menu dropdown */
+  .dark nav.fixed .bg-white\/95 {
+    background-color: #000000 !important;
+  }
+
+  /* Dark mode: project card action buttons (GitHub, demo) */
+  .dark .project-card-surface .bg-white\/90 {
+    background-color: #000000 !important;
+  }
+  .dark .project-card-surface .hover\:bg-white:hover {
+    background-color: #1f2933 !important;
+  }
+
   /* Dark mode: View Projects button - keep dark text on light bg */
   .dark .view-projects-btn {
     background-color: #ffffff !important;
